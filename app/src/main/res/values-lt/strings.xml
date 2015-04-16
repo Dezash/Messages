@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">xXxMLGxXx</string>
+    <string name="edit_message">čia rasyk</string>
+    <string name="action_settings">Nustatymai</string>
+    <string name="button_send">Rodyti</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">Mano tekstas</string>
+    <string name="hello_world">Kabas pasauli!</string>
+    <string name="action_search">betkas</string>
+
+</resources>
