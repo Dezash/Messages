@@ -22,9 +22,9 @@ public class DisplayMessageActivity extends ActionBarActivity {
         int numRed = Integer.parseInt(intent.getStringExtra(MainActivity.redInteger));
         int numGreen = Integer.parseInt(intent.getStringExtra(MainActivity.greenInteger));
         int numBlue = Integer.parseInt(intent.getStringExtra(MainActivity.blueInteger));
-        Log.v("A: ", Integer.toString(numAlpha));
-        Log.v("R: ", Integer.toString(numRed));
-        Log.v("G: ", Integer.toString(numGreen));
+        Log.v("A: ", Integer.toString(numAlpha)); //Problem: numAlpha is same as numBlue
+        Log.v("R: ", Integer.toString(numRed)); //Problem: numRed is same as numBlue
+        Log.v("G: ", Integer.toString(numGreen)); //Problem: numGreen is same as numBlue
         Log.v("B: ", Integer.toString(numBlue));
         TextView textView = new TextView(this);
         textView.setTextSize(120);
